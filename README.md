@@ -7,5 +7,6 @@
 
 
 ```
+> npm i react-router-dom react-hook-form antd
 
 
