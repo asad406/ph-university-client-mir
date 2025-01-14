@@ -66,7 +66,7 @@ export const adminSidebarItems = adminPaths.reduce((acc: TSidebar[], item) => {
   if (item.name && item.path) {
     acc.push({
       key: item.name,
-      label: <NavLink to={item.path}>{item.name}</NavLink>,
+      label: <NavLink to={`/admin/${item.path}`}>{item.name}</NavLink>,
     });
   }
 
@@ -76,7 +76,7 @@ export const adminSidebarItems = adminPaths.reduce((acc: TSidebar[], item) => {
       label: item.name,
       children: item.children.map((child) => ({
         key: child.name,
-        label: <NavLink to={child.path}>{child.name}</NavLink>,
+        label: <NavLink to={`/admin/${child.path}`}>{child.name}</NavLink>,
       })),
     });
   }
