@@ -1,31 +1,32 @@
-import { Layout, Menu, MenuProps } from "antd";
+import { Layout, Menu, } from "antd";
+import {  Outlet } from "react-router-dom";
+import { adminSidebarItems } from "../../routes/admin.routes";
 const { Header, Content, Footer, Sider } = Layout;
 
-
-const items: MenuProps["items"] = [
-  {
-    key: "1",
-    label: "Dashboard",
-  },
-  {
-    key: "2",
-    label: "Dashboard",
-    children: [
-      {
-        key: "11",
-        label: "Create Admin",
-      },
-      {
-        key: "12",
-        label: "Create Faculty",
-      },
-      {
-        key: "13",
-        label: "Create Student",
-      },
-    ],
-  },
-];
+// const items: MenuProps["items"] = [
+//   {
+//     key: "1",
+//     label: "Dashboard",
+//   },
+//   {
+//     key: "2",
+//     label: "Dashboard",
+//     children: [
+//       {
+//         key: "11",
+//         label: <NavLink to='create-admin'>Create Admin</NavLink>,
+//       },
+//       {
+//         key: "12",
+//         label: <NavLink to='create-faculty'>Create Faculty</NavLink>,
+//       },
+//       {
+//         key: "13",
+//         label: <NavLink to='create-student'>Create Student</NavLink>,
+//       },
+//     ],
+//   },
+// ];
 
 const MainLayout = () => {
   return (
@@ -40,21 +41,22 @@ const MainLayout = () => {
           console.log(collapsed, type);
         }}
       >
-        <div  style={{
-              color: "white",
-              height: "4rem",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: 'center',
-
-            }}>
+        <div
+          style={{
+            color: "white",
+            height: "4rem",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
           <h3>PH-University</h3>
         </div>
         <Menu
           theme="dark"
           mode="inline"
           defaultSelectedKeys={["4"]}
-          items={items}
+          items={adminSidebarItems}
         />
       </Sider>
       <Layout style={{ height: "100vh" }}>
@@ -66,7 +68,7 @@ const MainLayout = () => {
               minHeight: 360,
             }}
           >
-            <h1>The University management app</h1>
+            <Outlet />
           </div>
         </Content>
         <Footer style={{ textAlign: "center" }}>

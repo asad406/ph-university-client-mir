@@ -54,8 +54,8 @@ University Management System is a full-stack web application built using the MER
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/university-management-system.git
-   cd university-management-system
+   git clone https://github.com/asad406/ph-university-client-mir.git
+   cd ph-university-client-mir
    ```
 2. Install dependencies for both frontend and backend:
    ```bash
@@ -103,6 +103,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
->> Asadul Islam - [Linkedin](https://www.linkedin.com/in/asad406/)
+- Asadul Islam - [Linkedin](https://www.linkedin.com/in/asad406/)
 
->> Asadul Islam - [X](https://x.com/asad406_)
+- Asadul Islam - [X](https://x.com/asad406_)
