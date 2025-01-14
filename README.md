@@ -85,5 +85,5 @@ Provide some screenshots of your application here.
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-Asadul Islam - [Linkedin](https://www.linkedin.com/in/asad406/)
+Asadul Islam - [Linkedin](https://www.linkedin.com/in/asad406/) /n
 Asadul Islam - [X](https://x.com/asad406_)
