@@ -1,11 +1,10 @@
-# University Management System
+# PH University Client
 
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
@@ -28,18 +27,18 @@ University Management System is a full-stack web application built using the MER
 - React
 - React-Redux
 - TypeScript
-- Bootstrap / Tailwind CSS (or any other CSS framework)
-### Backend:
-- Node.js
-- Express.js
-### Database:
-- MongoDB
+- Tailwind CSS 
+- Ant Design
+- React Router Dom
+- React Hook Form
+- 
+
 ### State Management:
 - Redux
 ### Version Control:
 - Git
 ### Deployment:
-- Heroku / AWS / DigitalOcean
+- Netlify
 
 ## Installation
 1. Clone the repository:
@@ -48,10 +47,7 @@ University Management System is a full-stack web application built using the MER
     cd university-management-system
     ```
 2. Install dependencies for both frontend and backend:
-    ```bash
-    cd client
-    npm install
-    cd ../server
+    ```bash    
     npm install
     ```
 3. Set up environment variables:
@@ -60,15 +56,6 @@ University Management System is a full-stack web application built using the MER
     JWT_SECRET=your_jwt_secret
     ```
 
-## Usage
-1. Start the development server:
-    ```bash
-    cd server
-    npm run dev
-    cd ../client
-    npm start
-    ```
-2. Open your browser and navigate to `http://localhost:3000`.
 
 ## API Endpoints
 ### Authentication
@@ -98,4 +85,5 @@ Provide some screenshots of your application here.
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-Your Name - [@your-twitter-handle](https://twitter.com/your-twitter-handle) - your-email@example.com
+Asadul Islam - [Linkedin](https://www.linkedin.com/in/asad406/)
+Asadul Islam - [X](https://x.com/asad406_)
