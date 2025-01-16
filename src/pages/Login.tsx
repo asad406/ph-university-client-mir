@@ -20,8 +20,8 @@ const Login = () => {
       password: "admin123",
     },
   });
-  const [addLogin, { error }] = useLoginMutation();
-  console.log("error =>", error);
+  const [addLogin] = useLoginMutation();
+  // console.log("error =>", error);
   const onSubmit: SubmitHandler<IFormInput> = async (data: FieldValues) => {
     const toastId = toast.loading("Logging in");
     try {
