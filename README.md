@@ -38,6 +38,7 @@ University Management System is a full-stack web application built using the MER
 - React Hook Form
 - jwt decode
 - redux persist
+- sonner
 
 ### State Management:
 
