@@ -39,6 +39,8 @@ University Management System is a full-stack web application built using the MER
 - jwt decode
 - redux persist
 - sonner
+- zod
+- hookform/resolvers
 
 ### State Management:
 
